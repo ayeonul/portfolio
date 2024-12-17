@@ -1,0 +1,15 @@
+@import url("./pretendard.css");
+
+@font-face {
+  font-family: "okman";
+  font-weight: normal;
+  font-style: normal;
+  src: url(../fonts/OKMAN\ FONT.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "ghana";
+  font-weight: normal;
+  font-style: normal;
+  src: url(../fonts/Ghanachocolate.ttf) format("truetype");
+}
