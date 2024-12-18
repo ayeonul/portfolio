@@ -13,6 +13,7 @@ import {
   uniSuitcaseAlt,
   uniBuilding,
   uniCube,
+  uniCommentsAlt
 } from "vue-unicons/dist/icons";
 
 Unicon.add([
@@ -25,6 +26,7 @@ Unicon.add([
   uniSuitcaseAlt,
   uniBuilding,
   uniCube,
+  uniCommentsAlt
 ]);
 Vue.use(Unicon);
 

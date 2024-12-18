@@ -6,7 +6,7 @@
           <div class="page-icon">
             <img src="@/assets/imgs/undraw_Dev_focus_re_6iwt.png" />
           </div>
-          <div class="changing-text-container">
+          <div class="changing-text-container no-select">
             <!-- 글자 입력/삭제 애니메이션 -->
             <span class="changing-text">
               {{ displayedText }}<span class="cursor"></span>
@@ -125,6 +125,13 @@
             </div>
           </div>
           <div class="lang-container">
+            <img src="@/assets/imgs/streamlit-mark-color.svg" class="img_XL" />
+            <div class="lang-info">
+              <div class="lang-name">Streamlit</div>
+              <Stars :rating="3" />
+            </div>
+          </div>
+          <div class="lang-container">
             <img src="@/assets/imgs/vue-logo.png" />
             <div class="lang-info">
               <div class="lang-name">Vue2</div>
@@ -146,14 +153,17 @@
             </div>
           </div>
           <div class="lang-container">
-            <img src="@/assets/imgs/Unofficial_JavaScript_logo_2.png" />
+            <img
+              src="@/assets/imgs/Unofficial_JavaScript_logo_2.png"
+              class="img_L"
+            />
             <div class="lang-info">
               <div class="lang-name">JavaScript</div>
               <Stars :rating="3" />
             </div>
           </div>
           <div class="lang-container">
-            <img src="@/assets/imgs/Git-Icon-1788C.svg" />
+            <img src="@/assets/imgs/Git-Icon-1788C.svg" class="img_L" />
             <div class="lang-info">
               <div class="lang-name">Git</div>
               <Stars :rating="3" />
@@ -185,10 +195,34 @@
               <ul>
                 <li>2021.12 ~ 2024.05</li>
                 <li>AI·DX 사업부 AI 연구소</li>
-                <li>자연어 처리(NLP) 기술 연구 및 개발</li>
+                <li>챗봇 시나리오 작성 및 빌드</li>
+                <li>Transformers 계열의 자연어 처리(NLP) 기술 연구 및 개발</li>
+                <li>모델의 시연을 위한 데모 웹페이지 제작</li>
               </ul>
             </div>
           </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="subtitle">
+          <unicon
+            name="cube"
+            fill="var(--highlight-pink)"
+            width="30px"
+            height="30px"
+          />
+          만들었습니다
+        </div>
+      </div>
+      <div class="section">
+        <div class="subtitle">
+          <unicon
+            name="comments-alt"
+            fill="var(--highlight-pink)"
+            width="30px"
+            height="30px"
+          />
+          소통합니다
         </div>
       </div>
     </div>

@@ -119,6 +119,14 @@
   height: 50px;
 }
 
+.lang-container .img_L{
+  height: 45px
+}
+
+.lang-container .img_XL{
+  height: 35px;
+}
+
 .lang-info {
   display: flex;
   flex-direction: column;
@@ -180,6 +188,9 @@
   .small-title {
     font-size: inherit;
   }
+  .career-list ul{
+    width: 85%;
+  }
 }
 
 @media (max-width: 500px) {
@@ -193,7 +204,16 @@
   .lang-container img {
     height: 40px;
   }
+  .lang-container .img_L{
+    height: 35px
+  }
+  .lang-container .img_XL{
+    height: 25px;
+  }
   .lang-info {
     gap: 0;
+  }
+  .career-list ul{
+    width: 80%;
   }
 }
