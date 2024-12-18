@@ -1,12 +1,33 @@
-import Vue from 'vue'
-import App from './App.vue'
-import router from './router'
-import store from './store'
+import Vue from "vue";
+import App from "./App.vue";
+import router from "./router";
+import store from "./store";
+import Unicon from "vue-unicons/dist/vue-unicons-vue2.umd";
+import {
+  uniCommentHeart,
+  uniArrowGrowth,
+  uniLaptop,
+  uniFileCopyAlt,
+  uniUserPlus,
+} from "vue-unicons/dist/icons";
 
-Vue.config.productionTip = false
+Unicon.add([
+  uniCommentHeart,
+  uniArrowGrowth,
+  uniLaptop,
+  uniFileCopyAlt,
+  uniUserPlus,
+]);
+Vue.use(Unicon);
+
+Vue.config.productionTip = false;
+
+Vue.prototype.$goRoute = (path) => {
+  router.push(path);
+};
 
 new Vue({
   router,
   store,
-  render: h => h(App)
-}).$mount('#app')
+  render: (h) => h(App),
+}).$mount("#app");

@@ -1,0 +1,118 @@
+.main-container {
+  margin: 5rem 0;
+  font-size: 1.1rem;
+  width: 80%;
+  max-width: 700px;
+}
+
+.main-container .section {
+  margin: 0 0 4rem 0;
+}
+
+.page-icon img {
+  height: 8rem;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 3rem;
+  margin: 0 0 1.5rem 0;
+}
+
+.text {
+  line-height: 1.5rem;
+  word-break: keep-all;
+}
+
+.highlight {
+  color: var(--main-pink);
+  font-weight: 600;
+}
+
+.changing-text-container {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.changing-text {
+  color: var(--main-pink);
+  white-space: nowrap; /* 글자가 줄바꿈되지 않도록 */
+  overflow: hidden; /* 글자 길이만큼만 표시 */
+}
+
+.cursor {
+  display: inline-block;
+  width: 0.08em;
+  height: 1em;
+  background-color: var(--main-pink);
+  margin: 0 0em 0 0.15rem;
+  position: relative;
+  top: 6px;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.subtitle {
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 0 0 1rem 0;
+}
+
+.subtitle .unicon {
+  margin: 0 0.5rem 0 0;
+}
+.small-title .unicon {
+  margin: 0 0.3rem 0 0;
+}
+
+.intro-container {
+  height: fit-content;
+  display: block;
+  padding: 0.5rem;
+  margin: 0 0 0.5rem 0;
+  background-color: var(--bg-pink);
+}
+
+.small-title {
+  font-weight: 600;
+  font-size: 1.3rem;
+  margin: 0 0 0.5rem 0;
+}
+
+@media (max-width: 768px) {
+  .changing-text-container{
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .main-container{
+    width: 90%;
+  }
+  .main-container .section{
+    margin: 0 0 3rem 0;
+  }
+  .title{
+    margin: 0 0 1rem 0;
+  }
+  .page-icon{
+    text-align: center;
+    height: 7rem;
+  }
+  .page-icon img{
+    height: 7rem;
+  }
+  .changing-text-container{
+    font-size: 1.5rem;
+  }
+}

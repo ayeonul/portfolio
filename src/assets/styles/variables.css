@@ -6,5 +6,6 @@
   --highlight-pink: rgb(240, 132, 141);
   --main-black: rgb(25, 15, 27);
   --sub-pink: rgb(255, 201, 206);
+  --bg-pink: rgba(255, 201, 206, .5);
   --gray: rgb(84, 78, 88);
 }

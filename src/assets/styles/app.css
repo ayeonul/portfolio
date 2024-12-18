@@ -32,11 +32,22 @@ p {
 
 /* === */
 
-.router-view {
-  display: flex;
+.unicon svg{
   position: relative;
+  top: 3px;
 }
 
+.router-view {
+  font-family: "pretendard";
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.router-view.no-cursor {
+  cursor: none;
+}
 .container {
   display: flex;
   justify-content: center;
