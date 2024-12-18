@@ -13,6 +13,6 @@ module.exports = defineConfig({
       ],
     },
   },
-  // publicPath:
-  //   process.env.NODE_ENV === "production" ? "/caramelized-peach/" : "/",
+  publicPath:
+    process.env.NODE_ENV === "production" ? "/portfolio/" : "/",
 });
