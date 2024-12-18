@@ -4,6 +4,7 @@ import Intro from '../views/Intro.vue'
 import Introduce from '../views/Introduce.vue'
 
 Vue.use(VueRouter)
+const base = process.env.NODE_ENV === 'production' ? '/portfolio/' : '/';
 
 const routes = [
   {
@@ -21,6 +22,7 @@ const routes = [
 const router = new VueRouter({
   routes,
   mode: 'history',
+  base: base,
 })
 
 export default router
