@@ -152,6 +152,13 @@
               <Stars :rating="3" />
             </div>
           </div>
+          <div class="lang-container">
+            <img src="@/assets/imgs/Git-Icon-1788C.svg" />
+            <div class="lang-info">
+              <div class="lang-name">Git</div>
+              <Stars :rating="3" />
+            </div>
+          </div>
         </div>
       </div>
       <div class="section">
