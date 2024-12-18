@@ -13,7 +13,10 @@ import {
   uniSuitcaseAlt,
   uniBuilding,
   uniCube,
-  uniCommentsAlt
+  uniCommentsAlt,
+  uniAt,
+  uniGithub,
+  uniExternalLinkAlt,
 } from "vue-unicons/dist/icons";
 
 Unicon.add([
@@ -26,7 +29,10 @@ Unicon.add([
   uniSuitcaseAlt,
   uniBuilding,
   uniCube,
-  uniCommentsAlt
+  uniCommentsAlt,
+  uniAt,
+  uniGithub,
+  uniExternalLinkAlt,
 ]);
 Vue.use(Unicon);
 
@@ -35,6 +41,10 @@ Vue.config.productionTip = false;
 Vue.prototype.$goRoute = (path) => {
   router.push(path);
 };
+
+Vue.prototype.$linkOpen = (url) => {
+  window.open(url, "_blank");
+}
 
 new Vue({
   router,

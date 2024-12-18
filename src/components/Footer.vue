@@ -1,6 +1,7 @@
 <template>
-  <div class="footer">
+  <div class="footer no-select">
     <div class="copyright">
+      본 사이트는 Chrome, Edge, Whale 등 최신 브라우저에 최적화되어 있습니다.<br/>
       Designed and developed by 김동은(ayeonul). All rights reserved.
     </div>
   </div>
@@ -30,5 +31,6 @@ export default {
   margin: 0 auto;
   width: fit-content;
   padding: 0 0 .5rem 0;
+  text-align: center;
 }
 </style>
