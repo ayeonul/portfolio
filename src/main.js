@@ -9,6 +9,10 @@ import {
   uniLaptop,
   uniFileCopyAlt,
   uniUserPlus,
+  uniThumbsUp,
+  uniSuitcaseAlt,
+  uniBuilding,
+  uniCube,
 } from "vue-unicons/dist/icons";
 
 Unicon.add([
@@ -17,6 +21,10 @@ Unicon.add([
   uniLaptop,
   uniFileCopyAlt,
   uniUserPlus,
+  uniThumbsUp,
+  uniSuitcaseAlt,
+  uniBuilding,
+  uniCube,
 ]);
 Vue.use(Unicon);
 

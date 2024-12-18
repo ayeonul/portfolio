@@ -5,10 +5,6 @@
   max-width: 700px;
 }
 
-.main-container .section {
-  margin: 0 0 4rem 0;
-}
-
 .page-icon img {
   height: 8rem;
 }
@@ -74,11 +70,21 @@
 .small-title .unicon {
   margin: 0 0.3rem 0 0;
 }
-
-.intro-container {
+.intro-section,
+.career-section {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.intro-container,
+.career-container {
+  width: 100%;
   height: fit-content;
   display: block;
-  padding: 0.5rem;
+  padding: 0.5rem 1rem;
   margin: 0 0 0.5rem 0;
   background-color: var(--bg-pink);
 }
@@ -89,30 +95,105 @@
   margin: 0 0 0.5rem 0;
 }
 
+.small-title .unicon svg {
+  top: 5px;
+}
+
+.lang-section {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  gap: 1.5rem;
+  /* justify-content: center; */
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.lang-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.lang-container img {
+  height: 50px;
+}
+
+.lang-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.career-container .small-title {
+  color: var(--highlight-pink);
+}
+
+.career-list{
+  font-size: 1rem;
+}
+
+.career-list ul{
+  width: 90%;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.career-list li{
+  margin: .5rem 0;
+}
+
+/* .career-list li:last-child{
+  margin: 0;
+} */
+
 @media (max-width: 768px) {
-  .changing-text-container{
+  .changing-text-container {
     font-size: 2.5rem;
   }
 }
 
 @media (max-width: 700px) {
-  .main-container{
+  .main-container {
+    font-size: 1rem;
+  }
+  .main-container,
+  .lang-section {
     width: 90%;
   }
-  .main-container .section{
-    margin: 0 0 3rem 0;
-  }
-  .title{
+  .title {
     margin: 0 0 1rem 0;
   }
-  .page-icon{
+  .page-icon {
     text-align: center;
     height: 7rem;
   }
-  .page-icon img{
+  .page-icon img {
     height: 7rem;
   }
-  .changing-text-container{
+  .changing-text-container {
     font-size: 1.5rem;
+  }
+  .subtitle {
+    font-size: 1.5rem;
+  }
+  .small-title {
+    font-size: inherit;
+  }
+}
+
+@media (max-width: 500px) {
+  .changing-text-container {
+    font-size: 1.4rem;
+    gap: 0.2rem;
+  }
+  .lang-container {
+    gap: 0.2rem;
+  }
+  .lang-container img {
+    height: 40px;
+  }
+  .lang-info {
+    gap: 0;
   }
 }

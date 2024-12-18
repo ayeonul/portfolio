@@ -53,3 +53,13 @@ p {
   justify-content: center;
   align-items: center;
 }
+
+.section{
+  margin: 0 0 4rem 0;
+}
+
+@media (max-width: 700px){
+  .section{
+    margin: 0 0 3rem 0;
+  }
+}
