@@ -216,6 +216,9 @@
   .career-list ul {
     width: 85%;
   }
+  .contact-section{
+    width: 90%;
+  }
 }
 
 @media (max-width: 500px) {
