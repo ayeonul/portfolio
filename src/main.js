@@ -18,7 +18,6 @@ import {
   uniAt,
   uniGithub,
   uniExternalLinkAlt,
-  uniHeartbeat
 } from "vue-unicons/dist/icons";
 
 Unicon.add([
@@ -36,7 +35,6 @@ Unicon.add([
   uniAt,
   uniGithub,
   uniExternalLinkAlt,
-  uniHeartbeat
 ]);
 Vue.use(Unicon);
 

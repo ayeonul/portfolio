@@ -276,7 +276,6 @@
             @click="kakaoShare"
             class="share-btn"
           />
-          <unicon name="heartbeat" fill="var(--highlight-pink)" width="100px" height="100px"/>
         </div>
       </div>
     </div>
