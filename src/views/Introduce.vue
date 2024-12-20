@@ -361,7 +361,7 @@ export default {
           title: "Portfolio",
           description:
             "Popular한 개발자를 꿈꾸는 3년 차 파이썬 개발자 김동은입니다.",
-          imageUrl: "http://localhost:8080/imgs/share-img.png",
+          imageUrl: "http://ayeonul.github.io/portfolio/imgs/share-img.png",
           link: {
             mobileWebUrl: "https://ayeonul.github.io/portfolio/",
             webUrl: "https://ayeonul.github.io/portfolio/",
