@@ -213,11 +213,19 @@
           />
           만들었습니다
         </div>
+        <div class="exp-section">
+          <ExpContainer
+            v-for="(data, index) in expData"
+            :key="`exp${index}`"
+            :expIdx="index"
+            :expData="data"
+          />
+        </div>
       </div>
       <div class="section">
         <div class="subtitle">
           <unicon
-            name="comments-alt"
+            name="comments"
             fill="var(--highlight-pink)"
             width="30px"
             height="30px"
@@ -267,11 +275,14 @@
 </template>
 
 <script>
+import axios from "axios";
 import Stars from "@/components/Stars.vue";
+import ExpContainer from "@/components/ExpContainer.vue";
 
 export default {
   components: {
     Stars,
+    ExpContainer,
   },
   data() {
     return {
@@ -281,7 +292,18 @@ export default {
       isDeleting: false, // 현재 입력 또는 삭제 상태
       typingSpeed: 100, // 타이핑 속도 (밀리초)
       pauseTime: 3500, // 입력 후 대기 시간 (2초)
+      expData: [],
     };
+  },
+  async created() {
+    try {
+      const baseUrl =
+        process.env.NODE_ENV === "production" ? "/portfolio/" : "/";
+      const response = await axios.get(`${baseUrl}data/experience.json`);
+      this.expData = response.data.reverse();
+    } catch (error) {
+      console.error("데이터 로딩에 실패했어요.", error);
+    }
   },
   mounted() {
     this.animateText();

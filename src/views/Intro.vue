@@ -14,6 +14,7 @@
           <div class="clickable" v-show="!isGoShow">PortFolio</div>
         </div>
       </div>
+      <div class="bg-white"></div>
       <span
         v-for="(word, index) in displayedWords"
         :key="index"

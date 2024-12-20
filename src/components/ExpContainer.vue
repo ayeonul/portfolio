@@ -1,0 +1,58 @@
+<template>
+  <div class="exp-container">
+    <div class="exp-title">{{ expData.title }}</div>
+    <div class="exp-list">
+      <div class="exp-tags">
+        <span
+          v-for="(tag, idx) in expData.tag"
+          :key="`exp ${expIdx}-tag${idx}`"
+          :class="tag"
+          class="no-select"
+          >{{ tag }}</span
+        >
+      </div>
+      <ul>
+        <li>{{ expData.term }}</li>
+        <li v-for="(c, idx) in expData.content" :key="`exp ${expIdx}-${idx}`">
+          {{ c }}
+        </li>
+      </ul>
+    </div>
+    <div v-if="expData.detail" class="exp-detail-btn-container">
+      <div
+        v-for="(btn, idx) in expData.detail"
+        :key="`exp ${expIdx}- btn${idx}`"
+        class="exp-detail-btn"
+        @click="expBtnAction(btn.type, btn.content)"
+      >
+        {{ btn.name }}
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  props: {
+    expIdx: {
+      type: Number,
+      required: true,
+    },
+    expData: {
+      type: Object,
+      required: true,
+    },
+  },
+  methods:{
+    expBtnAction(type, content){
+      if(type=="url"){
+        this.$linkOpen(content)
+      }
+    }
+  }
+};
+</script>
+
+<style scoped>
+@import url("@/assets/styles/exp-container.css");
+</style>
