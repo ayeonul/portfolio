@@ -269,6 +269,15 @@
             </span>
           </div>
         </div>
+        <div class="text">혹은 인재가 필요한 다른 분께 전달드릴 수도 있죠.</div>
+        <div class="contact-section">
+          <img
+            src="@/assets/imgs/kakaotalk_sharing_btn_small_ov.png"
+            @click="kakaoShare"
+            class="share-btn"
+          />
+          <unicon name="heartbeat" fill="var(--highlight-pink)" width="100px" height="100px"/>
+        </div>
       </div>
     </div>
   </div>
@@ -307,6 +316,7 @@ export default {
   },
   mounted() {
     this.animateText();
+    Kakao.init("ceaa1b4fa57b2d9600301656d1988ee6");
   },
   methods: {
     animateText() {
@@ -344,6 +354,21 @@ export default {
         this.animateText,
         this.isDeleting ? this.typingSpeed / 2 : this.typingSpeed
       );
+    },
+    kakaoShare() {
+      Kakao.Link.sendDefault({
+        objectType: "feed",
+        content: {
+          title: "Portfolio",
+          description:
+            "Popular한 개발자를 꿈꾸는 3년 차 파이썬 개발자 김동은입니다.",
+          imageUrl: "http://localhost:8080/imgs/share-img.png",
+          link: {
+            mobileWebUrl: "https://ayeonul.github.io/portfolio/",
+            webUrl: "https://ayeonul.github.io/portfolio/",
+          },
+        },
+      });
     },
   },
 };

@@ -167,13 +167,18 @@
   display: flex;
   flex-direction: column;
   gap: 0.1rem;
-  width: 95%;
-  margin: 0.5rem auto 0 auto;
+  width: 90%;
+  margin: 0.5rem auto;
   font-size: 1.3rem;
 }
 
 .unicon.none-top svg {
   top: 0;
+}
+
+.share-btn{
+  width: 25px;
+  cursor: pointer;
 }
 
 /* .career-list li:last-child{
