@@ -25,7 +25,14 @@
         class="exp-detail-btn"
         @click="expBtnAction(btn.type, btn.content)"
       >
-        {{ btn.name }}
+        <div v-if="btn.name == 'git'" style="padding: 3px 5px;"
+          ><unicon
+            name="github"
+            fill="#fff"
+            width="23px"
+            height="23px"
+        /></div>
+        <div v-else style="padding: 5px 9px;"> {{ btn.name }}</div>
       </div>
     </div>
   </div>
@@ -43,13 +50,13 @@ export default {
       required: true,
     },
   },
-  methods:{
-    expBtnAction(type, content){
-      if(type=="url"){
-        this.$linkOpen(content)
+  methods: {
+    expBtnAction(type, content) {
+      if (type == "url") {
+        this.$linkOpen(content);
       }
-    }
-  }
+    },
+  },
 };
 </script>
 

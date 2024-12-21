@@ -68,6 +68,14 @@
 .halted {
   background-color: var(--gray);
 }
+.archived {
+  background-color: #7e595c;
+  color: #fff;
+}
+.Streamlit {
+  background: linear-gradient(45deg, #ff4b4b, #bd4043, #7d353b);
+  color: #fff;
+}
 .Python {
   background: linear-gradient(135deg, #35709f 40%, #ffdd55);
   color: #fff;
@@ -94,21 +102,23 @@
   width: fit-content;
   color: #fff;
   background-color: var(--main-pink);
-  padding: 5px 9px;
   border-radius: 5px;
 }
 
-@media (max-width: 768px){
-  .exp-title{
+.exp-detail-btn svg {
+  top: 1px;
+}
+
+@media (max-width: 768px) {
+  .exp-title {
     max-width: 75%;
   }
-  .exp-list{
+  .exp-list {
     width: 70%;
   }
 }
-@media (max-width: 700px){
-  .exp-container{
+@media (max-width: 700px) {
+  .exp-container {
     max-width: 90%;
   }
-
 }
