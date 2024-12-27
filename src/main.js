@@ -18,6 +18,7 @@ import {
   uniAt,
   uniGithub,
   uniExternalLinkAlt,
+  uniFileShareAlt,
 } from "vue-unicons/dist/icons";
 
 Unicon.add([
@@ -35,6 +36,7 @@ Unicon.add([
   uniAt,
   uniGithub,
   uniExternalLinkAlt,
+  uniFileShareAlt,
 ]);
 Vue.use(Unicon);
 
@@ -46,7 +48,7 @@ Vue.prototype.$goRoute = (path) => {
 
 Vue.prototype.$linkOpen = (url) => {
   window.open(url, "_blank");
-}
+};
 
 new Vue({
   router,

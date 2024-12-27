@@ -140,7 +140,7 @@
   color: var(--highlight-pink);
 }
 
-.career-list{
+.career-list {
   font-size: 1rem;
 }
 
@@ -176,9 +176,17 @@
   top: 0;
 }
 
-.share-btn{
-  width: 25px;
+.kakao-share-btn {
+  width: 23px;
+}
+
+.icon-label {
   cursor: pointer;
+  font-size: .9rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: fit-content;
 }
 
 /* .career-list li:last-child{
@@ -221,7 +229,7 @@
   .career-list ul {
     width: 85%;
   }
-  .contact-section{
+  .contact-section {
     width: 90%;
   }
 }

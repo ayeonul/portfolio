@@ -271,11 +271,24 @@
         </div>
         <div class="text">혹은 인재가 필요한 다른 분께 전달드릴 수도 있죠.</div>
         <div class="contact-section">
-          <img
-            src="@/assets/imgs/kakaotalk_sharing_btn_small_ov.png"
-            @click="kakaoShare"
-            class="share-btn"
-          />
+          <div @click="kakaoShare" class="icon-label">
+            <img
+              src="@/assets/imgs/kakaotalk_sharing_btn_small_ov.png"
+              class="kakao-share-btn"
+            />
+            <span>카카오톡으로 공유하기</span>
+          </div>
+        </div>
+        <div class="contact-section">
+          <div @click="$linkOpen(resumeLink)" class="icon-label">
+            <unicon
+              name="file-share-alt"
+              fill="var(--highlight-pink)"
+              width="25px"
+              height="25px"
+            />
+            <span>이력서 다운받기</span>
+          </div>
         </div>
       </div>
     </div>
@@ -301,6 +314,8 @@ export default {
       typingSpeed: 100, // 타이핑 속도 (밀리초)
       pauseTime: 3500, // 입력 후 대기 시간 (2초)
       expData: [],
+      resumeLink:
+        "https://drive.google.com/file/d/1WHUODrHstu-OnETTAE2_lLAY0I_ViqYK/view?usp=drive_link",
     };
   },
   async created() {
