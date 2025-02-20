@@ -15,13 +15,8 @@
           </div>
         </div>
         <div class="text">
-          Popular,
-          <a style="font-style: italic" class="highlight">난</a> 이제 곧
-          popular!
-        </div>
-        <div class="text">
-          <a style="font-style: italic">Popular</a>한 개발자를 꿈꾸는
-          <a class="highlight">3년 차 파이썬 개발자 김동은</a>입니다.
+          안녕하세요, 즐거운 성장을 꿈꾸는
+          <a class="highlight">파이썬 개발자 김동은</a>입니다.
         </div>
       </div>
       <div class="section">
@@ -233,9 +228,8 @@
           소통합니다
         </div>
         <div class="text">
-          저와 함께
-          <a style="font-style: italic" class="highlight">popular</a>해질 생각은
-          없으세요? 아래 메일로 문의 주세요!
+          <a class="highlight">저와 함께 상호 성장</a> 할 회사를 찾고 있어요.
+          아래 메일로 문의 주세요!
         </div>
         <div class="contact-section">
           <div class="contact-container">

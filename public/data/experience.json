@@ -102,16 +102,5 @@
         "content": "https://github.com/ayeonul/gpt2reserve"
       }
     ]
-  },
-  {
-    "title": "개인 웹 포트폴리오",
-    "term": "2024.12 ~ ",
-    "tag": ["ongoing", "live", "Vue2"],
-    "content": [
-      "뮤지컬 <Wicked>의 넘버 <Popular>을 듣고 영감을 얻어 제작한 개인 포트폴리오",
-      "디자인과 개발, 배포까지 모두 담당",
-      "현재 서비스 중이나, 수시로 패치 및 재배포 진행"
-    ],
-    "detail": null
   }
 ]

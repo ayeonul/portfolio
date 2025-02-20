@@ -7,13 +7,18 @@ Vue.use(VueRouter)
 const base = process.env.NODE_ENV === 'production' ? '/portfolio/' : '/';
 
 const routes = [
+  // {
+  //   path: '/',
+  //   name: 'home',
+  //   component: Intro
+  // },
+  // {
+  //   path: '/intro',
+  //   name: 'introduce',
+  //   component: Introduce
+  // },
   {
     path: '/',
-    name: 'home',
-    component: Intro
-  },
-  {
-    path: '/intro',
     name: 'introduce',
     component: Introduce
   },

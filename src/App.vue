@@ -1,8 +1,9 @@
 <template>
   <div id="app">
-    <CircleCursor v-if="checkRouter()"/>
+    <!-- <CircleCursor v-if="checkRouter()"/> -->
     <router-view />
-    <Footer v-if="!(checkRouter())"/>
+    <Footer/>
+    <!-- <Footer v-if="!(checkRouter())"/> -->
   </div>
 </template>
 
