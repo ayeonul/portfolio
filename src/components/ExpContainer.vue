@@ -25,7 +25,7 @@
         class="exp-detail-btn"
         @click="expBtnAction(btn.type, btn.content)"
       >
-        <div v-if="btn.name == 'git'" style="padding: 3px 5px;"
+        <div v-if="btn.name == 'git'" style="padding: 1px 3px;"
           ><unicon
             name="github"
             fill="#fff"

@@ -193,9 +193,15 @@
   margin: 0;
 } */
 
-@media (max-width: 768px) {
+@media (max-width: 870px){
   .changing-text-container {
     font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .changing-text-container {
+    font-size: 2rem;
   }
 }
 
@@ -233,6 +239,8 @@
     width: 90%;
   }
 }
+
+
 
 @media (max-width: 500px) {
   .changing-text-container {

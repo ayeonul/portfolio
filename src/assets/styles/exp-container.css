@@ -93,6 +93,8 @@
   margin: 0.5rem 1rem;
   display: flex;
   justify-content: end;
+  gap: .3rem;
+  align-items: center;
 }
 .exp-detail-btn {
   cursor: pointer;
