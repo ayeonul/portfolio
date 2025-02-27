@@ -90,17 +90,23 @@
   {
     "title": "GPT 기반 회의실 예약 도우미",
     "term": "2024.11 ~",
-    "tag": ["ongoing", "archived", "Python"],
+    "tag": ["ongoing", "archived", "Python", "Streamlit"],
     "content": [
       "1대 1 혹은 다수와의 대화 도중 회의에 관한 내용이 인식되었을 때 회의실 예약 컨펌 이벤트를 발생시키는 서비스",
       "그룹웨어 등에 삽입을 전제로 개발"
     ],
     "detail": [
       {
+        "name": "DEMO",
+        "type": "url",
+        "content": "https://gpt2reserve.streamlit.app/"
+      },
+      {
         "name": "git",
         "type": "url",
         "content": "https://github.com/ayeonul/gpt2reserve"
       }
+
     ]
   }
 ]
