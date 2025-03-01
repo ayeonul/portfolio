@@ -113,6 +113,13 @@
             </div>
           </div>
           <div class="lang-container">
+            <img src="@/assets/imgs/selenium_logo_mark_green.svg" class="img_L"/>
+            <div class="lang-info">
+              <div class="lang-name">Selenium(py)</div>
+              <Stars :rating="3" />
+            </div>
+          </div>
+          <div class="lang-container">
             <img src="@/assets/imgs/pandas_mark.svg" />
             <div class="lang-info">
               <div class="lang-name">Pandas</div>
