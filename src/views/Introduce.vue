@@ -324,7 +324,7 @@ export default {
       pauseTime: 3500, // 입력 후 대기 시간 (2초)
       expData: [],
       resumeLink:
-        "https://drive.google.com/file/d/1WHUODrHstu-OnETTAE2_lLAY0I_ViqYK/view?usp=drive_link",
+        "https://drive.google.com/file/d/1riuAtQ8PxeCvzaqcLwduG9LcZD-8P3-N/view?usp=sharing",
     };
   },
   async created() {
