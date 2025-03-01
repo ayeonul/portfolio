@@ -148,10 +148,12 @@
   width: 90%;
   padding: 0;
   margin: 0 auto;
+  word-break: keep-all;
 }
 
 .career-list li {
   margin: 0.5rem 0;
+  
 }
 
 .exp-section {
