@@ -8,7 +8,7 @@
           :key="`exp ${expIdx}-tag${idx}`"
           :class="tag"
           class="no-select"
-          >{{ tag }}</span
+          >{{ getTagName(tag) }}</span
         >
       </div>
       <ul>
@@ -56,6 +56,9 @@ export default {
         this.$linkOpen(content);
       }
     },
+    getTagName(str){
+      return str.replace("_", " ")
+    }
   },
 };
 </script>
