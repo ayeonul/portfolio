@@ -2,7 +2,7 @@
   {
     "title": "부산과학기술대학교 학사안내 챗봇",
     "term": "2021.06 ~ 2022.01",
-    "tag": ["completed", "retired"],
+    "tag": ["개발_완료", "서비스_종료"],
     "content": [
       "지원자, 신입생, 학부생 등을 위한 학사 행정 관련 안내 챗봇",
       "교내 캡스톤 디자인 프로젝트로 시작",
@@ -14,7 +14,7 @@
   {
     "title": "부경대학교 비교과 프로그램 안내 챗봇",
     "term": "2022.03 ~ 2022.06",
-    "tag": ["completed", "retired"],
+    "tag": ["개발_완료", "서비스_종료"],
     "content": [
       "부경대학교 비교과 프로그램 시스템에 대한 안내 챗봇",
       "시나리오 작성 및 챗봇 빌드 담당",
@@ -25,7 +25,7 @@
   {
     "title": "부산시교육청 PEN AI AI대입설계 서비스",
     "term": "2022.03 ~ 2022.11",
-    "tag": ["completed", "live", "Python", "FastAPI"],
+    "tag": ["개발_완료", "서비스_중", "Python", "FastAPI"],
     "content": [
       "입력받은 생활기록부 및 성적을 바탕으로 기 대학 합격자와의 비교분석 레포트를 제공해주는 AI 개발",
       "현재 서비스 중"
@@ -41,7 +41,7 @@
   {
     "title": "인천사이버진로교육원 진로추천 AI 및 사이트 챗봇",
     "term": "2022.03 ~ 2023.11",
-    "tag": ["completed", "live", "Python", "FastAPI"],
+    "tag": ["개발_완료", "서비스_중", "Python", "FastAPI"],
     "content": [
       "인천사이버진로교육원 내에서 진로검사, 메타버스 게임의 점수 등을 통해 직무, 직업, 진로상담사, 진로체험처 등을 추천해주는 AI 서비스 개발(2차연도) 및 고도화(3차연도)",
       "홈페이지 내 챗봇 엔진 빌드 담당",
@@ -58,7 +58,7 @@
   {
     "title": "웹사이트 기반 자동 챗봇 생성기",
     "term": "2023.06 ~ 2023.09",
-    "tag": ["completed", "archived", "Python", "Streamlit", "Selenium"],
+    "tag": ["개발_완료", "Python", "Streamlit", "Selenium"],
     "content": [
       "웹사이트의 URL을 입력받은 뒤, URL의 웹사이트를 크롤링하여 습득한 정보로 챗봇의 안내문 생성 및 챗봇으로 제작",
       "챗봇의 엔진은 BERT 계열 모델 기반, 예문 및 안내문의 생성은 GPT를 기반으로 함."
@@ -74,7 +74,7 @@
   {
     "title": "대화 기반 정보 수집 및 진로상담 챗봇",
     "term": "2023.08 ~ 2023.11",
-    "tag": ["completed", "archived", "Python", "Streamlit"],
+    "tag": ["개발_완료", "Python", "Streamlit"],
     "content": [
       "사용자와의 대화를 통해 사용자의 각종 정보(성적, 취미, 흥미 등)를 습득하고, 습득한 정보를 통해 진로 추천을 진행",
       "GPT API의 function calling 기능을 다양한 방법으로 사용해보려는 시도"
@@ -90,7 +90,7 @@
   {
     "title": "GPT 기반 회의실 예약 도우미",
     "term": "2024.11 ~",
-    "tag": ["ongoing", "archived", "Python", "Streamlit"],
+    "tag": ["개발_중", "Python", "Streamlit"],
     "content": [
       "1대 1 혹은 다수와의 대화 도중 회의에 관한 내용이 인식되었을 때 회의실 예약 컨펌 이벤트를 발생시키는 서비스",
       "그룹웨어 등에 삽입을 전제로 개발"
@@ -106,7 +106,6 @@
         "type": "url",
         "content": "https://github.com/ayeonul/gpt2reserve"
       }
-
     ]
   }
 ]
