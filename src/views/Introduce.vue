@@ -113,7 +113,10 @@
             </div>
           </div>
           <div class="lang-container">
-            <img src="@/assets/imgs/selenium_logo_mark_green.svg" class="img_L"/>
+            <img
+              src="@/assets/imgs/selenium_logo_mark_green.svg"
+              class="img_L"
+            />
             <div class="lang-info">
               <div class="lang-name">Selenium(py)</div>
               <Stars :rating="3" />
@@ -140,7 +143,7 @@
               <Stars :rating="3.5" />
             </div>
           </div>
-          <div class="lang-container">
+          <!-- <div class="lang-container">
             <img src="@/assets/imgs/HTML5_logo_and_wordmark.png" />
             <div class="lang-info">
               <div class="lang-name">HTML</div>
@@ -163,7 +166,7 @@
               <div class="lang-name">JavaScript</div>
               <Stars :rating="3" />
             </div>
-          </div>
+          </div> -->
           <div class="lang-container">
             <img src="@/assets/imgs/Git-Icon-1788C.svg" class="img_L" />
             <div class="lang-info">
@@ -198,22 +201,33 @@
                 <li>2021.12 ~ 2024.05</li>
                 <li>AI·DX 사업부 AI 연구소</li>
                 <li>
-                  Transformers 계열의 자연어 처리(NLP) 기술 연구 및 응용
-                  서비스를 위한 API 개발
+                  Transformers 계열의 자연어 처리(NLP) 기술 연구 및 응용 서비스
+                  개발
                 </li>
-                <li>인천사이버진로교육원 진로추천 AI 개발(2022.03~2023.11)</li>
-                인천사이버진로교육원 내에서 진로검사, 메타버스 게임의 점수 등을
-                통해 직무, 직업, 진로상담사, 진로체험처 등을 추천해주는 AI
-                서비스 개발(2차연도) 및 고도화(3차연도)
+                <li>FastAPI를 이용한 AI 응용 서비스의 API 개발</li>
+                <li>Selenium 및 각종 API 서비스를 이용한 데이터 수집 및 정제</li>
+                <li>AI 엔진 데모 버전의 웹사이트 개발</li>
                 <li>
-                  부산시교육청 PEN AI AI대입설계 서비스 개발(2022.03~2022.11)
-                </li>
-                사용자의 생활기록부 및 성적을 바탕으로 기 대학 합격자와의
-                비교분석 레포트를 제공하는 AI 엔진 개발
-                <li>
-                  이외 자연어 기반 맞춤 정책 추천 엔진, GPT를 이용한 NCS
-                  직무기술서 기반 자기소개서 첨삭 엔진, 웹사이트 크롤링을 통한
-                  챗봇 자동제작 서비스 등 개발
+                  참여 프로젝트
+                  <ul>
+                    <li>
+                      인천사이버진로교육원 진로추천 AI 개발(2022.03~2023.11)
+                    </li>
+                    인천사이버진로교육원 내에서 진로검사, 메타버스 게임의 점수
+                    등을 통해 직무, 직업, 진로상담사, 진로체험처 등을 추천해주는
+                    AI 서비스 개발(2차연도) 및 고도화(3차연도)
+                    <li>
+                      부산시교육청 PEN AI AI대입설계 서비스
+                      개발(2022.03~2022.11)
+                    </li>
+                    사용자의 생활기록부 및 성적을 바탕으로 기 대학 합격자와의
+                    비교분석 레포트를 제공하는 AI 엔진 개발
+                    <li>
+                      이외 자연어 기반 맞춤 정책 추천 엔진, GPT를 이용한 NCS
+                      직무기술서 기반 자기소개서 첨삭 엔진, 웹사이트 크롤링을
+                      통한 챗봇 자동제작 엔진 등 개발
+                    </li>
+                  </ul>
                 </li>
               </ul>
             </div>
