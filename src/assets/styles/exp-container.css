@@ -84,16 +84,26 @@
   background: linear-gradient(135deg, #41b883 30%, #35495e);
   color: #fff;
 }
-.Selenium{
-  background: #43B02A;
+.Selenium {
+  background: #43b02a;
   color: #fff;
 }
-
-.exp-detail-btn-container {
+.exp-detail-btn-section {
+  display: flex;
+  flex-direction: column;
   margin: 0.5rem 1rem;
+  gap: .3rem;
+}
+.exp-detail-btn-hint{
+  font-size: 0.8rem;
+  color: var(--gray);
+  text-align: right;
+  word-break: keep-all;
+}
+.exp-detail-btn-container {
   display: flex;
   justify-content: end;
-  gap: .3rem;
+  gap: 0.3rem;
   align-items: center;
 }
 .exp-detail-btn {
