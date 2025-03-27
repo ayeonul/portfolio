@@ -9,7 +9,7 @@
       "시나리오 작성 및 챗봇 빌드 담당",
       "'23년 서비스 종료"
     ],
-    "detail": null
+    "buttons": null
   },
   {
     "title": "부경대학교 비교과 프로그램 안내 챗봇",
@@ -20,10 +20,10 @@
       "시나리오 작성 및 챗봇 빌드 담당",
       "'23년 서비스 종료"
     ],
-    "detail": null
+    "buttons": null
   },
   {
-    "title": "부산시교육청 PEN AI AI대입설계 서비스",
+    "title": "부산학력교육원 PEN AI AI대입설계 서비스",
     "term": "2022.03 ~ 2022.11",
     "tag": ["개발_완료", "서비스_중", "Python", "FastAPI"],
     "content": [
@@ -31,7 +31,7 @@
       "BERT 계열 모델을 이용해 두 요소의 유사성을 계산하여 가장 유사한 합격자의 합격 대학 및 TF-IDF를 이용해 워드클라우드를 제공",
       "현재 서비스 중"
     ],
-    "detail": [
+    "buttons": [
       {
         "name": "바로가기",
         "type": "url",
@@ -48,11 +48,11 @@
       "NCS 직무, 진로상담사의 자기소개, 진로체험 프로그램 설명 등과, 사용자의 보고서 등을 BERT 계열 모델을 이용하여 유사도를 계산, 높은 순으로 대상을 추천",
       "현재 서비스 중"
     ],
-    "detail": [
+    "buttons": [
       {
         "name": "바로가기",
         "type": "url",
-        "content": "https://cyberjinro.ice.go.kr/main"
+        "content": "https://cyberjinro.ice.go.kr/smsc/ai/introduce1?menuId=20221110100003922254"
       }
     ]
   },
@@ -65,7 +65,7 @@
       "챗봇의 엔진은 BERT 계열 모델 기반으로, 사용자 입력문과 만들어진 예문과의 유사성을 계산하여 의도를 추론",
       "예문 및 안내문의 생성은 GPT를 사용"
     ],
-    "detail": [
+    "buttons": [
       {
         "name": "git",
         "type": "url",
@@ -83,7 +83,7 @@
       "정보 습득 GPT가 최소 정보를 모두 습득했을 때, 습득한 정보와 여러 직무의 유사성을 계산하여 가장 유사한 직무를 산출 및 추천",
       "GPT API의 function calling 기능을 다양한 방법으로 사용해보려는 시도"
     ],
-    "detail": [
+    "buttons": [
       {
         "name": "git",
         "type": "url",
@@ -98,9 +98,9 @@
     "content": [
       "1대 1 혹은 다수와의 대화 도중 회의에 관한 내용이 인식되었을 때 회의실 예약 컨펌 이벤트를 발생시키는 서비스",
       "그룹웨어 채팅 등에 삽입을 전제로 기획 및 개발",
-      "채팅이 새로 전송될 때마다 GPT API의 function calling 기능을 이용, 회의에 관련된 대화인지와 회의 관련 정보를 취득"
+      "채팅이 새로 전송될 때마다 GPT API의 function calling 기능을 이용, 회의에 관련된 대화인지 판단하고 회의 관련 정보를 취득"
     ],
-    "detail": [
+    "buttons": [
       {
         "name": "DEMO",
         "type": "url",
