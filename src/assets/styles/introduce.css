@@ -22,6 +22,12 @@
   margin: 0 auto;
 }
 
+.text ul {
+  list-style-type: circle;
+  padding: 0 0.5rem;
+  margin: 0.5rem 0;
+}
+
 .highlight {
   color: var(--main);
   font-weight: 500;
@@ -153,7 +159,6 @@
 
 .career-list li {
   margin: 0.5rem 0;
-  
 }
 
 .exp-section {
@@ -184,7 +189,7 @@
 
 .icon-label {
   cursor: pointer;
-  font-size: .9rem;
+  font-size: 0.9rem;
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -195,7 +200,7 @@
   margin: 0;
 } */
 
-@media (max-width: 870px){
+@media (max-width: 870px) {
   .changing-text-container {
     font-size: 2.5rem;
   }
@@ -241,8 +246,6 @@
     width: 90%;
   }
 }
-
-
 
 @media (max-width: 500px) {
   .changing-text-container {

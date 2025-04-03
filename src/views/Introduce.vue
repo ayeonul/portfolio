@@ -18,6 +18,26 @@
           안녕하세요, 즐거운 성장을 꿈꾸는
           <a class="highlight">파이썬 개발자 김동은</a>입니다.
         </div>
+        <div class="text" style="margin: 1rem auto">
+          <a class="highlight">Python</a>을 가장 자신있게 다룰 수 있으며,
+          <ul>
+            <li>huggingface를 이용한 transformers 계열 모델 활용 엔진 개발</li>
+            <li>FastAPI 라이브러리를 활용한 API 서버 개발</li>
+            <li>
+              OpenAI, Gemini, Naver CLOVA등의 API를 이용한 fine-tuning(미세조정)
+              및 프롬프트 엔지니어링
+            </li>
+            <li>
+              생성형 모델과 타 모델 혹은 데이터를 결합한 RAG 기반 서비스 엔진
+              개발
+            </li>
+          </ul>
+          을 주로 해왔습니다.
+        </div>
+
+        <div class="text">
+          항상 새로운 기술과 도전을 통해 성장하는 걸 즐깁니다.
+        </div>
       </div>
       <div class="section">
         <div class="subtitle">
