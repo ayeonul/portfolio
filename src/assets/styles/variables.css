@@ -2,11 +2,11 @@
 
 :root {
   --test-color: rgb(250, 235, 215);
-  --main: rgb(249, 161, 169);
-  --highlight: rgb(240, 132, 141);
+  --main: #386C0B;
+  --highlight: #386C0B;
   --black: rgb(25, 15, 27);
   --sub: rgb(255, 201, 206);
-  --bg: rgba(255, 201, 206, .5);
+  --bg: #cad5ca80;
   --gray: rgb(84, 78, 88);
-  --footer: rgb(249, 161, 169);
+  --footer: #44404F;
 }
