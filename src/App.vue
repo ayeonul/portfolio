@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <!-- <CircleCursor v-if="checkRouter()"/> -->
     <router-view />
     <Footer/>
     <!-- <Footer v-if="!(checkRouter())"/> -->
@@ -9,12 +8,10 @@
 
 <script>
 
-import CircleCursor from './components/CircleCursor.vue';
 import Footer from './components/Footer.vue';
 
 export default {
   components:{
-    CircleCursor,
     Footer
   },
   methods:{

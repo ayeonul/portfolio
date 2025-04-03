@@ -215,15 +215,25 @@
                     <li>
                       인천사이버진로교육원 진로추천 AI 개발(2022.03~2023.11)
                     </li>
-                    인천사이버진로교육원 내에서 진로검사, 메타버스 게임의 점수
-                    등을 통해 직무, 직업, 진로상담사, 진로체험처 등을 추천해주는
-                    AI 서비스 개발(2차연도) 및 고도화(3차연도)
+                    <ul>
+                      <li>참여인원 3인(AI 엔진 개발 기준), 참여도 40%</li>
+                      <li>
+                        인천사이버진로교육원 내에서 진로검사, 메타버스 게임의
+                        점수 등을 통해 직무, 직업, 진로상담사, 진로체험처 등을
+                        추천해주는 AI 서비스 개발(2차연도) 및 고도화(3차연도)
+                      </li>
+                    </ul>
                     <li>
                       부산시교육청 PEN AI AI대입설계 서비스
                       개발(2022.03~2022.11)
                     </li>
-                    사용자의 생활기록부 및 성적을 바탕으로 기 대학 합격자와의
-                    비교분석 레포트를 제공하는 AI 엔진 개발
+                    <ul>
+                      <li>참여인원 2인(AI 엔진 개발 기준), 참여도 50%</li>
+                      <li>
+                        사용자의 생활기록부 및 성적을 바탕으로 기 대학
+                        합격자와의 비교분석 레포트를 제공하는 AI 엔진 개발
+                      </li>
+                    </ul>
                     <li>
                       이외 자연어 기반 맞춤 정책 추천 엔진, GPT를 이용한 NCS
                       직무기술서 기반 자기소개서 첨삭 엔진, 웹사이트 크롤링을
@@ -339,15 +349,15 @@ export default {
   },
   data() {
     return {
-      whatILike: ["성장을", "카피를", "개발을"], // 순환할 단어 리스트
+      whatILike: ["성장을", "카피를", "개발을"],
       displayedText: "성장을",
       wordIndex: 0,
-      isDeleting: false, // 현재 입력 또는 삭제 상태
+      isDeleting: false,
       typingSpeed: 100, // 타이핑 속도 (밀리초)
       pauseTime: 3500, // 입력 후 대기 시간 (2초)
       expData: [],
       resumeLink:
-        "https://drive.google.com/file/d/1riuAtQ8PxeCvzaqcLwduG9LcZD-8P3-N/view?usp=sharing",
+        "https://drive.google.com/file/d/1i372KdegjexCqNtVvQv3mNOG2W5hsQb_/view?usp=sharing",
     };
   },
   async created() {
