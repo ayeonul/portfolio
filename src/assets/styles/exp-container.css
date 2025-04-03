@@ -1,6 +1,6 @@
 .exp-container {
   max-width: 49%;
-  background-color: var(--bg-pink);
+  background-color: var(--bg);
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
@@ -14,7 +14,7 @@
   max-width: 80%;
   word-break: keep-all;
   text-align: center;
-  color: var(--highlight-pink);
+  color: var(--highlight);
 }
 
 .exp-list {
@@ -56,7 +56,7 @@
   color: #fff;
 }
 .개발_중 {
-  background-color: var(--highlight-pink);
+  background-color: var(--highlight);
   color: #fff;
 }
 .서비스_중 {
@@ -113,7 +113,7 @@
   font-size: 0.8rem;
   width: fit-content;
   color: #fff;
-  background-color: var(--main-pink);
+  background-color: var(--main);
   border-radius: 5px;
 }
 

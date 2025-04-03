@@ -18,7 +18,7 @@ export default {
   width: 100vw - 10px;
   padding-right: 10px;
   height: 100px;
-  background-color: var(--main-pink);
+  background-color: var(--footer);
   flex-shrink: 0;
   display: flex;
   align-items: flex-end;

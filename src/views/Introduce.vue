@@ -11,7 +11,7 @@
             <span class="changing-text">
               {{ displayedText }}<span class="cursor"></span>
             </span>
-            즐기는 개발자, <a style="color: var(--main-pink)">김동은</a>입니다.
+            즐기는 개발자, <a style="color: var(--main)">김동은</a>입니다.
           </div>
         </div>
         <div class="text">
@@ -23,7 +23,7 @@
         <div class="subtitle">
           <unicon
             name="comment-heart"
-            fill="var(--highlight-pink)"
+            fill="var(--highlight)"
             width="30px"
             height="30px"
           />즐깁니다
@@ -33,10 +33,10 @@
             <div class="small-title">
               <unicon
                 name="arrow-growth"
-                fill="var(--highlight-pink)"
+                fill="var(--highlight)"
                 width="25px"
                 height="25px"
-              /><a style="color: var(--highlight-pink)">성장을</a> 즐깁니다.
+              /><a style="color: var(--highlight)">성장을</a> 즐깁니다.
             </div>
             <div class="text">
               '지식은 세상을 조금 더 높은 화질로 볼 수 있게 해준다'는 비유를 참
@@ -50,10 +50,10 @@
             <div class="small-title">
               <unicon
                 name="file-copy-alt"
-                fill="var(--highlight-pink)"
+                fill="var(--highlight)"
                 width="25px"
                 height="25px"
-              /><a style="color: var(--highlight-pink)">카피를</a> 즐깁니다.
+              /><a style="color: var(--highlight)">카피를</a> 즐깁니다.
             </div>
             <div class="text">
               수준 높은, 혹은 취향에 맞는 프로그램을 마주했을 때의 '내가 가진
@@ -67,10 +67,10 @@
             <div class="small-title">
               <unicon
                 name="laptop"
-                fill="var(--highlight-pink)"
+                fill="var(--highlight)"
                 width="25px"
                 height="25px"
-              /><a style="color: var(--highlight-pink)">개발을</a> 즐깁니다.
+              /><a style="color: var(--highlight)">개발을</a> 즐깁니다.
             </div>
             <div class="text">
               아이디어나 문서로만 존재하던 것을 눈앞에 구현해내는 과정, 그리고
@@ -84,7 +84,7 @@
         <div class="subtitle">
           <unicon
             name="user-plus"
-            fill="var(--highlight-pink)"
+            fill="var(--highlight)"
             width="30px"
             height="30px"
           />할 수 있습니다
@@ -97,7 +97,7 @@
                 Python
                 <unicon
                   name="thumbs-up"
-                  fill="var(--highlight-pink)"
+                  fill="var(--highlight)"
                   width="20px"
                   height="20px"
                 />
@@ -180,7 +180,7 @@
         <div class="subtitle">
           <unicon
             name="suitcase-alt"
-            fill="var(--highlight-pink)"
+            fill="var(--highlight)"
             width="30px"
             height="30px"
           />
@@ -191,7 +191,7 @@
             <div class="small-title">
               <unicon
                 name="building"
-                fill="var(--highlight-pink)"
+                fill="var(--highlight)"
                 width="25px"
                 height="25px"
               />(주) 스마트소셜
@@ -250,7 +250,7 @@
         <div class="subtitle">
           <unicon
             name="cube"
-            fill="var(--highlight-pink)"
+            fill="var(--highlight)"
             width="30px"
             height="30px"
           />
@@ -269,7 +269,7 @@
         <div class="subtitle">
           <unicon
             name="comments"
-            fill="var(--highlight-pink)"
+            fill="var(--highlight)"
             width="30px"
             height="30px"
           />
@@ -283,7 +283,7 @@
           <div class="contact-container">
             <unicon
               name="at"
-              fill="var(--highlight-pink)"
+              fill="var(--highlight)"
               width="25px"
               height="25px"
             />
@@ -292,7 +292,7 @@
           <div class="contact-container">
             <unicon
               name="github"
-              fill="var(--highlight-pink)"
+              fill="var(--highlight)"
               width="25px"
               height="25px"
             />
@@ -303,7 +303,7 @@
             >
               <unicon
                 name="external-link-alt"
-                fill="var(--highlight-pink)"
+                fill="var(--highlight)"
                 width="15px"
                 height="15px"
                 class="none-top"
@@ -325,7 +325,7 @@
           <div @click="$linkOpen(resumeLink)" class="icon-label">
             <unicon
               name="file-share-alt"
-              fill="var(--highlight-pink)"
+              fill="var(--highlight)"
               width="25px"
               height="25px"
             />

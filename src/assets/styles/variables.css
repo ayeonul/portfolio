@@ -2,10 +2,11 @@
 
 :root {
   --test-color: rgb(250, 235, 215);
-  --main-pink: rgb(249, 161, 169);
-  --highlight-pink: rgb(240, 132, 141);
-  --main-black: rgb(25, 15, 27);
-  --sub-pink: rgb(255, 201, 206);
-  --bg-pink: rgba(255, 201, 206, .5);
+  --main: rgb(249, 161, 169);
+  --highlight: rgb(240, 132, 141);
+  --black: rgb(25, 15, 27);
+  --sub: rgb(255, 201, 206);
+  --bg: rgba(255, 201, 206, .5);
   --gray: rgb(84, 78, 88);
+  --footer: rgb(249, 161, 169);
 }

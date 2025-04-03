@@ -6,7 +6,7 @@
       :show-rating="false"
       :star-size="20"
       :increment="0.5"
-      active-color="var(--main-pink)"
+      active-color="var(--main)"
     />
   </div>
 </template>

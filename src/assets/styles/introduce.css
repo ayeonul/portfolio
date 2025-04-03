@@ -23,7 +23,7 @@
 }
 
 .highlight {
-  color: var(--main-pink);
+  color: var(--main);
   font-weight: 500;
 }
 
@@ -34,7 +34,7 @@
 }
 
 .changing-text {
-  color: var(--main-pink);
+  color: var(--main);
   white-space: nowrap; /* 글자가 줄바꿈되지 않도록 */
   overflow: hidden; /* 글자 길이만큼만 표시 */
 }
@@ -43,7 +43,7 @@
   display: inline-block;
   width: 0.08em;
   height: 1em;
-  background-color: var(--main-pink);
+  background-color: var(--main);
   margin: 0 0em 0 0.15rem;
   position: relative;
   top: 6px;
@@ -88,7 +88,7 @@
   display: block;
   padding: 0.5rem 1rem;
   margin: 0 0 0.5rem 0;
-  background-color: var(--bg-pink);
+  background-color: var(--bg);
 }
 
 .small-title {
@@ -137,7 +137,7 @@
 }
 
 .career-container .small-title {
-  color: var(--highlight-pink);
+  color: var(--highlight);
 }
 
 .career-list {
