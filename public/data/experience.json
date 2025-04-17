@@ -59,13 +59,18 @@
   {
     "title": "웹사이트 기반 자동 챗봇 생성기",
     "term": "2023.06 ~ 2023.09",
-    "tag": ["개발_완료", "Python", "Streamlit", "Selenium"],
+    "tag": ["개발_완료", "Python", "Streamlit", "Selenium", "FastAPI"],
     "content": [
       "사이트맵 별 URL을 입력받은 뒤, URL의 웹사이트를 크롤링하여 습득한 정보로 챗봇의 안내문 생성 및 챗봇으로 제작",
       "챗봇의 엔진은 BERT 계열 모델 기반으로, 사용자 입력문과 만들어진 예문과의 유사성을 계산하여 의도를 추론",
       "예문 및 안내문의 생성은 GPT를 사용"
     ],
     "buttons": [
+      {
+        "name": "자세히 보기",
+        "type": "url",
+        "content": "https://www.notion.so/project-1d87274502d080feb321d60ade98f41a?pvs=4"
+      },
       {
         "name": "git",
         "type": "url",

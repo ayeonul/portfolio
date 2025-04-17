@@ -33,7 +33,10 @@
           <div v-if="btn.name == 'git'" style="padding: 1px 3px">
             <unicon name="github" fill="#fff" width="23px" height="23px" />
           </div>
-          <div v-else style="padding: 5px 9px">{{ btn.name }}</div>
+          <div v-else-if="btn.name == 'notion'" style="padding: 1px 3px">
+            <img src="@/assets/imgs/notion_logo.svg" width="23px" height="23px"/>
+          </div>
+          <div v-else style="padding: 6px 9px">{{ btn.name }}</div>
         </div>
       </div>
     </div>
