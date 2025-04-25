@@ -24,13 +24,14 @@
             <li>huggingface를 이용한 transformers 계열 모델 활용 엔진 개발</li>
             <li>FastAPI 라이브러리를 활용한 API 서버 개발</li>
             <li>
-              OpenAI, Gemini, Naver CLOVA등의 API를 이용한 fine-tuning(미세조정)
-              및 프롬프트 엔지니어링
+              프롬프트 엔지니어링 및 OpenAI, Gemini, Naver CLOVA 등의 API를
+              이용한 미세조정(fine-tuning)
             </li>
             <li>
               생성형 모델과 타 모델 혹은 데이터를 결합한 RAG 기반 서비스 엔진
               개발
             </li>
+            <li>챗봇 기획 및 챗봇 시나리오 작성</li>
           </ul>
           을 주로 해왔습니다.
         </div>
@@ -59,10 +60,10 @@
               /><a style="color: var(--highlight)">성장을</a> 즐깁니다.
             </div>
             <div class="text">
-              '지식은 세상을 조금 더 높은 화질로 볼 수 있게 해준다'는 비유를 참
-              좋아하고, 공감합니다. 여러 프로젝트를 겪은 뒤 문득 처음 보는
-              코드가 선명히 잘 읽힐 때의 쾌감을 좋아합니다.<br />그렇게 성장한
-              저는 소속 단체를 함께 성장시키고, 성장한 단체는 소속원인 저를 다시
+              '지식은 세상을 조금 더 높은 화질로 볼 수 있게 해준다'는 비유에
+              공감하며, 여러 프로젝트를 겪은 뒤에 문득 처음 보는 코드가 선명히
+              잘 읽힐 때의 쾌감을 좋아합니다.<br />그렇게 성장한 저는 소속
+              단체를 함께 성장시키고, 성장한 단체는 소속원인 저를 다시
               성장시키는 선순환을 많이 좋아합니다.
             </div>
           </div>
@@ -129,7 +130,7 @@
             <img src="@/assets/imgs/fastapi-logo.png" />
             <div class="lang-info">
               <div class="lang-name">FastAPI</div>
-              <Stars :rating="3" />
+              <Stars :rating="3.5" />
             </div>
           </div>
           <div class="lang-container">
@@ -142,13 +143,7 @@
               <Stars :rating="3" />
             </div>
           </div>
-          <div class="lang-container">
-            <img src="@/assets/imgs/pandas_mark.svg" />
-            <div class="lang-info">
-              <div class="lang-name">Pandas</div>
-              <Stars :rating="3" />
-            </div>
-          </div>
+
           <div class="lang-container">
             <img src="@/assets/imgs/streamlit-mark-color.svg" class="img_XL" />
             <div class="lang-info">
@@ -233,15 +228,21 @@
                   참여 프로젝트
                   <ul>
                     <li>
-                      인천사이버진로교육원 진로추천 AI 개발(2022.03~2023.11)
+                      인천사이버진로교육원 진로 추천 AI 개발(2022.03~2023.11)
                     </li>
                     <ul>
                       <li>참여인원 3인(AI 엔진 개발 기준), 참여도 40%</li>
                       <li>
-                        인천사이버진로교육원 내에서 진로검사, 메타버스 게임의
-                        점수 등을 통해 직무, 직업, 진로상담사, 진로체험처 등을
-                        추천해주는 AI 서비스 개발(2차연도) 및 고도화(3차연도)
+                        진로 추천 AI의 아래 서비스 개발(2022)
+                        <ul>
+                          <li>직무 추천 AI</li>
+                          <li>직업 추천 AI</li>
+                          <li>진로상담사 추천 AI</li>
+                          <li>온/오프라인 진로체험처 추천 AI</li>
+                          <li>추천을 위한 데이터 정기 취득 스케줄러</li>
+                        </ul>
                       </li>
+                      <li>이후 AI 고도화 참여(2023)</li>
                     </ul>
                     <li>
                       부산시교육청 PEN AI AI대입설계 서비스
@@ -330,26 +331,24 @@
               />
             </span>
           </div>
-        </div>
-        <div class="text">혹은 인재가 필요한 다른 분께 전달드릴 수도 있죠.</div>
-        <div class="contact-section">
-          <div @click="kakaoShare" class="icon-label">
-            <img
-              src="@/assets/imgs/kakaotalk_sharing_btn_small_ov.png"
-              class="kakao-share-btn"
-            />
-            <span>카카오톡으로 공유하기</span>
-          </div>
-        </div>
-        <div class="contact-section">
-          <div @click="$linkOpen(resumeLink)" class="icon-label">
+          <div class="contact-container">
             <unicon
               name="file-share-alt"
               fill="var(--highlight)"
               width="25px"
               height="25px"
+              class="icon-label"
             />
-            <span>이력서 다운받기</span>
+            이력서 다운받기
+            <span style="cursor: pointer" @click="$linkOpen(resumeLink)">
+              <unicon
+                name="external-link-alt"
+                fill="var(--highlight)"
+                width="15px"
+                height="15px"
+                class="none-top"
+              />
+            </span>
           </div>
         </div>
       </div>
@@ -436,8 +435,7 @@ export default {
         objectType: "feed",
         content: {
           title: "Portfolio",
-          description:
-            "Popular한 개발자를 꿈꾸는 3년 차 파이썬 개발자 김동은입니다.",
+          description: "성장을 즐기는는 3년 차 파이썬 개발자 김동은입니다.",
           imageUrl: "http://ayeonul.github.io/portfolio/imgs/share-img.png",
           link: {
             mobileWebUrl: "https://ayeonul.github.io/portfolio/",
