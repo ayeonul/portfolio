@@ -31,13 +31,7 @@
       "BERT 계열 모델을 이용해 두 요소의 유사성을 계산하여 가장 유사한 합격자의 합격 대학 및 TF-IDF를 이용해 워드클라우드를 제공",
       "현재 서비스 중"
     ],
-    "buttons": [
-      {
-        "name": "바로가기",
-        "type": "url",
-        "content": "https://jinhakai.pen.go.kr/intro/entrance"
-      }
-    ]
+    "buttons": null
   },
   {
     "title": "인천사이버진로교육원 진로추천 AI",
@@ -48,13 +42,7 @@
       "NCS 직무, 진로상담사의 자기소개, 진로체험 프로그램 설명 등과, 사용자의 보고서 등을 BERT 계열 모델을 이용하여 유사도를 계산, 높은 순으로 대상을 추천",
       "현재 서비스 중"
     ],
-    "buttons": [
-      {
-        "name": "바로가기",
-        "type": "url",
-        "content": "https://cyberjinro.ice.go.kr/smsc/ai/introduce1?menuId=20221110100003922254"
-      }
-    ]
+    "buttons": null
   },
   {
     "title": "웹사이트 기반 자동 챗봇 생성기",
@@ -70,11 +58,6 @@
         "name": "자세히 보기",
         "type": "url",
         "content": "https://www.notion.so/project-1d87274502d080feb321d60ade98f41a?pvs=4"
-      },
-      {
-        "name": "git",
-        "type": "url",
-        "content": "https://github.com/ayeonul/Auto-Chatbot-Maker-for-St"
       }
     ]
   },
