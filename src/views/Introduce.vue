@@ -308,7 +308,7 @@
               width="25px"
               height="25px"
             />
-            ayeonul1214@gmail.com
+            kde013434@naver.com
           </div>
           <div class="contact-container">
             <unicon
