@@ -17,6 +17,26 @@
             fill="var(--highlight)"
             width="25px"
             height="25px"
+          />(주) 단비
+        </div>
+        <div class="career-list">
+          <ul>
+            <li>2025.07 ~ 재직중</li>
+            <li>AI 연구소</li>
+            <li>RAG(검색 증강 생성) 기반 챗봇 개발</li>
+            <li>FastAPI를 이용한 AI 응용 서비스의 API 개발</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="career-section">
+      <div class="career-container">
+        <div class="small-title">
+          <unicon
+            name="building"
+            fill="var(--highlight)"
+            width="25px"
+            height="25px"
           />(주) 스마트소셜
         </div>
         <div class="career-list">
@@ -64,27 +84,6 @@
                 </li>
               </ul>
             </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="career-section">
-      <div class="career-container">
-        <div class="small-title">
-          <unicon
-            name="building"
-            fill="var(--highlight)"
-            width="25px"
-            height="25px"
-          />(주) 단비
-        </div>
-        <div class="career-list">
-          <ul>
-            <li>2025.07 ~ 재직중</li>
-            <li>AI 연구소</li>
-            <li>RAG(검색 증강 생성) 기반 챗봇 개발</li>
-            <li>FastAPI를 이용한 AI 응용 서비스의 API 개발</li>
-            
           </ul>
         </div>
       </div>
