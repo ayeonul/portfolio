@@ -1,30 +1,33 @@
 <template>
   <div class="section">
     <div class="subtitle">
-      <unicon
-        name="suitcase-alt"
-        fill="var(--highlight)"
-        width="30px"
-        height="30px"
-      />
+      <unicon name="suitcase-alt" fill="var(--highlight)" width="30px" height="30px" />
       다녔습니다
     </div>
     <div class="career-section">
       <div class="career-container">
         <div class="small-title">
-          <unicon
-            name="building"
-            fill="var(--highlight)"
-            width="25px"
-            height="25px"
-          />(주) 단비
+          <unicon name="building" fill="var(--highlight)" width="25px" height="25px" />(주) 단비
         </div>
         <div class="career-list">
           <ul>
             <li>2025.07 ~ 재직중</li>
-            <li>AI 연구소</li>
+            <li>기업부설연구소</li>
             <li>RAG(검색 증강 생성) 기반 챗봇 개발</li>
             <li>FastAPI를 이용한 AI 응용 서비스의 API 개발</li>
+            <li>
+              참여 프로젝트
+              <ul>
+                <li>부산광역시 통합홈페이지 AI소통 챗봇 개발(2025.07~2025.10)</li>
+                <ul>
+                  <li>참여인원 2인(AI 엔진 개발 기준), 참여도 90%</li>
+                  <li>
+                    사용자의 입력에 기반해 부산시보, 보도자료의 정보를 안내해주는 RAG 챗봇 서비스 개발
+                  </li>
+                  <li>상용 서비스를 활용한 tts 학습</li>
+                </ul>
+              </ul>
+            </li>
           </ul>
         </div>
       </div>
@@ -32,12 +35,7 @@
     <div class="career-section">
       <div class="career-container">
         <div class="small-title">
-          <unicon
-            name="building"
-            fill="var(--highlight)"
-            width="25px"
-            height="25px"
-          />(주) 스마트소셜
+          <unicon name="building" fill="var(--highlight)" width="25px" height="25px" />(주) 스마트소셜
         </div>
         <div class="career-list">
           <ul>
@@ -95,5 +93,4 @@
 export default {};
 </script>
 
-<style>
-</style>
+<style></style>

@@ -132,5 +132,6 @@
 @media (max-width: 700px) {
   .exp-container {
     max-width: 90%;
+    width: 100%;
   }
 }
