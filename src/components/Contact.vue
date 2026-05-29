@@ -67,7 +67,7 @@ export default {
   data() {
     return {
       resumeLink:
-        "https://drive.google.com/file/d/13x9UyKUDGtJKFSxqErD_hOFlsAyOfdXo/view?usp=sharing",
+        "https://drive.google.com/file/d/1CgzzqSVe1Mme8KwtJqCiMwG0HMdBmstx/view?usp=sharing",
     };
   },
   methods: {
