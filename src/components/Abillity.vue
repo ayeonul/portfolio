@@ -21,20 +21,20 @@
               height="20px"
             />
           </div>
-          <Stars :rating="4" />
+          <Stars :rating="4.5" />
         </div>
       </div>
       <div class="lang-container">
         <img src="@/assets/imgs/fastapi-logo.png" />
         <div class="lang-info">
           <div class="lang-name">FastAPI</div>
-          <Stars :rating="3.5" />
+          <Stars :rating="4" />
         </div>
       </div>
       <div class="lang-container">
-        <img src="@/assets/imgs/langchain_logo.png" class="img_XL" />
+        <img src="@/assets/imgs/docker_logo_blue.svg" class="img_L" />
         <div class="lang-info">
-          <div class="lang-name">Langchain</div>
+          <div class="lang-name">docker</div>
           <Stars :rating="3" />
         </div>
       </div>
