@@ -126,6 +126,12 @@
       "생성형 언어모델과 문서 임베딩 모델 등을 활용하여 개발",
       "tts 학습 기획 및 담당"
     ],
-    "buttons": null
+    "buttons": [
+      {
+        "name": "자세히 보기",
+        "type": "url",
+        "content": "https://www.busan.go.kr/booginews"
+      }
+    ]
   }
 ]
